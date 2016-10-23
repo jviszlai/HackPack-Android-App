@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bluetooth"
+    android:gravity="center_vertical|center_horizontal">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect from HackPack"
+        android:id="@+id/button3"
+        android:textSize="15sp"
+        android:layout_gravity="top|right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HackPack Communications"
+        android:id="@+id/textView"
+        android:layout_weight=".2"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="16dp"
+        android:layout_above="@+id/textView3"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_weight=".2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="Locked"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unlock Backpack"
+        android:id="@+id/button2"
+        android:layout_weight=".05"
+        android:textSize="25sp"
+        android:onClick="unlockPack"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Lock Backpack   "
+        android:id="@+id/button"
+        android:layout_weight=".05"
+        android:textSize="25sp"
+        android:onClick="lockPack"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/hackpackimageview" />
+
+
+</RelativeLayout>
+

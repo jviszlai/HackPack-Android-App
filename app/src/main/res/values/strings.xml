@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HackPack2.0</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bluetooth">Bluetooth</string>
+    <string name="title_activity_hp_communicate">hpCommunicate</string>
+    <string name="title_activity_setup">Setup</string>
+    <string name="title_activity_passwordinpu">Passwordinpu</string>
+    <string name="title_activity_password_input">PasswordInput</string>
+</resources>
